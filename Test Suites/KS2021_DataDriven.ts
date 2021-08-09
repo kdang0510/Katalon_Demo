@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>KS2021_DataDriven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>cb8dcd90-ee8b-4b4f-a1d2-e307cdfef3d6</testSuiteGuid>
+   <testCaseLink>
+      <guid>d30fddbf-e635-44a9-9add-8a8614fa410f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Udemy/DemoDataDriven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c0aa03d9-2f6b-47f4-b481-8c98268eba6c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Internal Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c0aa03d9-2f6b-47f4-b481-8c98268eba6c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>0da179a0-6deb-477b-a02f-1b67b30f2476</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c0aa03d9-2f6b-47f4-b481-8c98268eba6c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>895f6d25-aa49-4b71-8810-b67b002fd5c7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
