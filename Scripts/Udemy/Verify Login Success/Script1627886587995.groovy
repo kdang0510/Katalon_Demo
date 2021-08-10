@@ -27,9 +27,15 @@ WebUI.click(findTestObject('Page_Registration/a_Log in'))
 
 WebUI.setText(findTestObject('Page_Log In/input_Username or Email Address_log'), GlobalVariable.username)
 
+WebUI.delay(5)
+
 WebUI.setEncryptedText(findTestObject('Page_Log In/input_Password_pwd'), GlobalVariable.password)
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Log In/input_Remember Me_wp-submit'))
 
 WebUI.verifyTextPresent('Howdy, ks2041', false)
+
+WebUI.delay(10)
 

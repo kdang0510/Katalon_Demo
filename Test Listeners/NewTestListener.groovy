@@ -32,7 +32,7 @@ class NewTestListener {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
 		println 'This will run BEFORE TC'
-		WebUI.openBrowser()
+		WebUI.openBrowser('')
 	}
 
 	/**
